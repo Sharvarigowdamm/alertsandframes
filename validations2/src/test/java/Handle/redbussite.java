@@ -26,6 +26,8 @@ public class redbussite {
 	WebElement options2=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"autoSuggestContainer\"]/div/div[3]/div[1]/ul/li[1]")));
 	options2.click();
 	
+	driver.findElement(By.xpath("//*[@id=\"onwardCal\"]/div/div[2]/div/div/div[3]/div[3]/span/div[4]/span")).click();
+	
 	}
 
 }
