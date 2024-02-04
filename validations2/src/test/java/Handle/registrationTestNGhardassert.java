@@ -34,6 +34,11 @@ public class registrationTestNGhardassert {
 		String expfstnmae = "sharvari";
 		Assert.assertEquals(ele.getAttribute("value"), expfstnmae);
 
+		
+	}
+	@Test(priority = 2)
+	public void FillAllDetails() {
+		
 		System.out.println("2nd method");
 		driver.findElement(By.xpath("//*[@id=\"basicBootstrapForm\"]/div[1]/div[2]/input")).sendKeys("gowda");
 		driver.findElement(By.xpath("//*[@id=\"eid\"]/input")).sendKeys("gowda@tcs.com");
@@ -55,6 +60,7 @@ public class registrationTestNGhardassert {
 		driver.findElement(By.xpath("//*[@id=\"submitbtn\"]")).click();
 		System.out.println("clicked submit button");
 
+		
 	}
 
 	@AfterClass
