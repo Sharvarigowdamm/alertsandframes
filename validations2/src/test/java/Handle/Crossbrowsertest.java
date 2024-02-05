@@ -1,4 +1,4 @@
-package testng;
+package DiffAnnotations;
 
 public class Crossbrowsertest {
 
