@@ -18,7 +18,7 @@ public class csvDataprovider {
 		return data;
 	}
 	@Test(dataProvider="csvData")
-	public void teatcase(String Name,String pwd)
+	public void testcase(String Name,String pwd)
 	{
 		System.out.println(Name);
 		System.out.println(pwd);
