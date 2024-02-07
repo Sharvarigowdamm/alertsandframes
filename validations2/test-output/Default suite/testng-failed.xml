@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Practicetestng.registrationTestNGhardassert">
+      <class name="googleTest.GoogleSearchPageTest">
         <methods>
-          <include name="FillAllDetails"/>
-          <include name="openbrowser"/>
-          <include name="closebrowser"/>
+          <include name="tearDown"/>
+          <include name="GoogleSearch"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- Practicetestng.registrationTestNGhardassert -->
+      </class> <!-- googleTest.GoogleSearchPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
