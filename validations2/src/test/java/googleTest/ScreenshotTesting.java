@@ -11,7 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
-
+//this class is to take the screenshot of the particular page
 public class ScreenshotTesting {
 	@Test
 	public void search() throws IOException {
