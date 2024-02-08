@@ -24,8 +24,9 @@ import utilities.ReadExcelExample;
 	 ExtentTest test;
  
  @DataProvider(name="csvData") public Object[][] providedata() throws
- IOException { ReadExcelExample read=new ReadExcelExample(); Object[][]
- data=read.ReadExceldata("./Readfromexcel.xls","sheet2");
+ IOException { ReadExcelExample read=new ReadExcelExample(); 
+ Object[][]
+ data=read.ReadExceldata("./Data1.xlsx","sheet2");
  
  return data; }
  

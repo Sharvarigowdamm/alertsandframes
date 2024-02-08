@@ -10,7 +10,7 @@ public class GoogleSearchPageFactory {
 WebDriver driver;
 public GoogleSearchPageFactory(WebDriver driver1)
 {
-this.driver=driver;
+this.driver=driver1;
 PageFactory.initElements(driver, this);
 }
 @FindBy(name="q")
